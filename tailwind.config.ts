@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1779970738032884613.html"
 	],
 	prefix: "",
 	theme: {
@@ -86,9 +87,15 @@ export default {
 					}
 				}
 			},
+			fontFamily: {
+				'golos': ['Golos Text', 'sans-serif'],
+				'mono-ibm': ['IBM Plex Mono', 'monospace'],
+			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-slow': 'pulseSlow 4s ease-in-out infinite',
 			}
 		}
 	},
